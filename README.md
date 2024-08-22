@@ -3,4 +3,4 @@ https://raw.githubusercontent.com/shidqicate/my-lobby/main/kifm.php -> file mana
 https://raw.githubusercontent.com/shidqicate/my-lobby/main/kijuana.php -> marijuana
 https://raw.githubusercontent.com/shidqicate/my-lobby/main/key.php -> alseo
 https://raw.githubusercontent.com/shidqicate/my-lobby/main/jap.php -> file manager 
-https://raw.githubusercontent.com/shidqicate/my-lobby/main/bin.php -> bhintech
+https://raw.githubusercontent.com/shidqicate/my-lobby/main/license.php -> bhintech
