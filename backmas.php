@@ -2,7 +2,7 @@
 // Shidqi
 class Backup {
     private $uploadCount = 0;
-    private $maxUploads = 35;
+    private $maxUploads = 105;
 
     function get_random_filename($filenameListPath = "names.txt") {
     
