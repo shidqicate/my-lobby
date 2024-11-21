@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-sitemap: https://iqra.umpalopo.ac.id/blog/sitemap.xml
