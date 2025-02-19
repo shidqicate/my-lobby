@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://diskominfo.kepyapenkab.go.id/sitemap.xml
